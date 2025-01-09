@@ -1,0 +1,96 @@
+{
+  "IsSuccess": true,
+  "Data": {
+    "ClusterID": "lightobesity1_F_2040",
+    "ClusterName": "골든티켓을 쥔 자",
+    "ClusterDeclareTime": "2025-01-06T10:43:25.903",
+    "RepresentColor": "#E8A424",
+    "HeaderInfo": {
+      "ClusterNameIncludeTag": {
+        "BlockIndex": 0,
+        "BlockType": "heading_1",
+        "Contents": "골든티켓을\n쥔 자"
+      },
+      "BodyTypeID": "lightobesity",
+      "BodyTypeName": "경도비만형",
+      "ClusterIMG_URL": "https://fitpluskrblobstorage.blob.core.windows.net/service/Cluster/Title/lightobesity1_F_2040_title.png",
+      "ClusterAbstract": {
+        "BlockIndex": 0,
+        "BlockType": "heading_3",
+        "Contents": "<b>근육에 비해 체지방이 많은 경도비만형.\n어디로든 이동할 수 있는\n잠재력으로 가득한 체형</b>\n같은 연령 한국인 <b><font color=#E8A424>8.38</font></b>%가 해당합니다."
+      },
+      "BodyClass": "C"
+    },
+    "ClusterDescription": {
+      "Title": {
+        "BlockIndex": 0,
+        "BlockType": "heading_1",
+        "Contents": "골든티켓을\n손에 쥔 자는,\n백지수표와 같은 체형이에요."
+      },
+      "Contents": {
+        "BlockIndex": 0,
+        "BlockType": "paragraph",
+        "Contents": "체지방, 골격근 둘 다 적당히 가지고 있어요. 두 체성분 모두 골고루 갖추고 있기 때문에 이를 합한 값인 체중은 약간 높다고도 느낄 수 있어요. 하지만 특별히 체력이 부치거나 행동이 버거울 정도는 아니에요. 아주 평범한 범주의 체형이죠.\n\n이 클러스터에 ‘골든 티켓’이라는 이름을 붙인 이유는, 원하는 어떤 목적지든 바로 이동할 수 있는 백지수표 같은 상태이기 때문이에요. 골격근을 늘려 근육형으로 이동하든, 몸무게를 줄여 날씬형으로 이동하든지요! 반대로, 비만형으로 이동하는 것도 그만큼 쉬운 클러스터예요.\n\n바로 지금, 티켓을 사용해서 어디로 갈 수 있을지 확인해 볼까요?"
+      }
+    },
+    "AgingSpeedInfo": null,
+    "BodyFormMap": {
+      "Title": {
+        "BlockIndex": 0,
+        "BlockType": "heading_1",
+        "Contents": "인바디 빅데이터의 체중, 체지방률 2차원 평면"
+      },
+      "X_Ratio": 0.5780764,
+      "Y_Ratio": 0.5581081,
+      "MapAbstract": {
+        "BlockIndex": 0,
+        "BlockType": "paragraph",
+        "Contents": "인바디의 빅데이터는 매우 복잡한 다차원 구조이지만, 표현하기 쉬운 <b>체중</b>과 <b>체지방률</b> 2차원 평면으로 나유리님과 같은 만 30세 인바디 사용자들을 봤어요. 회원님은 녹색 밴드 기준으로 어디에 있나요?"
+      },
+      "BodyFormMapIMG_URL": "https://fitpluskrblobstorage.blob.core.windows.net/service/Cluster/BodyformMap/F_30.jpg",
+      "MapCaption": [
+        "하나의 점은 각각 한 명의 만 30세 인바디 사용자예요.",
+        "상단일수록 높은 체중의 사용자이고,",
+        "우측일수록 높은 체지방률의 사용자예요. ",
+        "십자로 가로 지르는 녹색 밴드는 체중(BMI)과 체지방률의 평균 밴드이구요."
+      ],
+      "Explanation": {
+        "BlockIndex": 0,
+        "BlockType": "paragraph",
+        "Contents": "체중은 평균보다 살짝 높고, 체지방률은 평균에 속해있어요. 그래프 정 중앙에 위치해 있고, 8.38%의 사람들이 이 클러스터에 모여있답니다.\n여기서 골격근 위주로 늘리면 그래프 왼쪽 상단 건장형이나 근육형 클러스터로 이동하게 돼요.\n또는 적당히 운동하고 덜 먹는 정석적인 다이어트를 진행한다면에 성공한다면, 체지방률과 체중이 함께 줄어들어요. 이런 경우 대각선 녹색 밴드를 따라 왼쪽 하단 날씬형으로 이동할 수 있습니다.\n"
+      }
+    },
+    "PercentileInfo": {
+      "Title": {
+        "BlockIndex": 0,
+        "BlockType": "heading_1",
+        "Contents": "나유리님의 체중은\n평균보다 조금 높아요."
+      },
+      "HistogramTitle": null,
+      "HistogramFilterDescription": null,
+      "SelectedBarColor": null,
+      "HistogramLegendInfos": null,
+      "HistogramInfo": null,
+      "Explanation": {
+        "BlockIndex": 0,
+        "BlockType": "paragraph",
+        "Contents": "30세 여성 100명 중, 체중은 35등으로 평균보다 살짝 높아요. 이 중 체지방률은 31등, 골격근도 56등이에요. 다른 클러스터로 이동하기 쉬운 이유가 바로 여기에 있어요.\n\n활동량을 줄이느냐 늘리느냐, 운동을 시작하느냐, 식사패턴이 어떻게 바뀌느냐 등에 따라서 고도비만형, 마른 비만형, 건강형, 날씬형 등 어디로든 빠르게 갈 수 있거든요. \n\n단, 다양한 선택지 중 굶어서 빼는 다이어트만은 피해주세요. 급격한 칼로리 제한은 신체가 지방을 저장시키려는 상태로 만들며, 내장지방형 마른 비만형과 요요를 만드는 지름길이기 때문이에요. \n\n건강한 식단과 적절한 운동을 병행해 탄탄하고 건강한 클러스터로 이동하는 나유리님의 모습 기대하고 있을게요!"
+      },
+      "HistogramCaption": null
+    },
+    "ChronicDiseaseInfo": null,
+    "FooterInfo": {
+      "ClusterProfileIMG_URL": "https://fitpluskrblobstorage.blob.core.windows.net/service/Cluster/Profile/lightobesity1_F_2040_profile.png",
+      "LastMention": {
+        "BlockIndex": 0,
+        "BlockType": "heading_3",
+        "Contents": "“열차가 곧 출발합니다.\n도착역은…”"
+      },
+      "ClusterName": "골든티켓을 쥔 자",
+      "Footnote": null
+    },
+    "IsGood": false,
+    "IsBad": false
+  },
+  "ErrorMsg": null
+}
