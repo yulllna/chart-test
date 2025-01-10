@@ -1,13 +1,8 @@
 <script setup lang="ts">
-// import HelloWorld from './components/HelloWorld.vue'
-import Chart2D from '@/components/Chart2D.vue'
 </script>
 
 <template>
-  <div>
-  </div>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
-   <Chart2D/>
+  <router-view></router-view>
 </template>
 
 <style scoped>
