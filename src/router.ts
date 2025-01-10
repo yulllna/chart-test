@@ -9,7 +9,7 @@ const routes = [
    {
       path: '/test',
       name: 'Test',
-      component: () => import('./views/Test.vue'),
+      component: () => import('./views/ChangeGraphTest.vue'),
    },
 ];
 
