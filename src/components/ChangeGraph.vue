@@ -48,13 +48,11 @@ const renderCanvas = () => {
    const ctx = canvas.getContext('2d');
    if (!ctx) return;
 
-   new LineChart(canvas, ctx);
-   // drawChart(ctx);
+   const chart = new LineChart(canvas, ctx);
+   setInterval(() => {
+      chart.updateDate([Date.now(), Math.random() * 100]);
+   }, 1000);
 };
-
-// const drawChart = ctx => {
-//    ctx.fillRect(25, 25, 100, 100);
-// };
 </script>
 
 <style scoped></style>

@@ -17,6 +17,7 @@ export class LineChart {
    startTime: number;
    endTime: number;
    xTimeInterval: number;
+   data: number[];
 
    constructor(ref: HTMLCanvasElement, ctx: CanvasRenderingContext2D) {
       this.canvas = ref;
@@ -32,6 +33,7 @@ export class LineChart {
       this.endTime = 0;
       this.xTimeInterval = 0;
 
+      this.data = [];
       this.setTime();
       this.drawChart();
    }
@@ -60,9 +62,8 @@ export class LineChart {
    // 차트를 그리는 함수
    drawChart = () => {
       const { ctx, chartHeight, canvasWidth, canvasHeight } = this;
-      ctx.clearRect(0, 0, canvasWidth, canvasHeight); // 캔버스 초기화
 
-      ctx.clearRect(0, 0, this.canvasWidth, this.canvasHeight); // 캔버스 초기화
+      ctx.clearRect(0, 0, canvasWidth, canvasHeight); // 캔버스 초기화
 
       ctx.beginPath();
       ctx.moveTo(YAXIS_PADDING, TOP_PADDING);
@@ -93,9 +94,34 @@ export class LineChart {
 
          ctx.fillText(text, xPoint, chartHeight + TOP_PADDING + 4);
          currentTime += this.xTimeInterval;
+
+         // drawData
+         ctx.beginPath();
+         this.data.forEach((datum, index) => {
+            const [time, value] = datum;
+            const xPoint =
+               ((time - this.startTime) / DURATION) * this.chartWidth;
+            const yPoint =
+               this.chartHeight - (value / MAX_VALUE) * this.chartHeight;
+
+            if (index === 0) {
+               ctx.moveTo(xPoint, yPoint);
+            } else {
+               ctx.lineTo(xPoint, yPoint);
+            }
+         });
       }
+
+      ctx.stroke();
+
+      // 애니메이션 루프 보장
+      window.requestAnimationFrame(this.drawChart);
    };
 
    // 데이터를 갱신하는 함수
-   updateData = () => {};
+   updateDate = data => {
+      this.data.push(data);
+      //   this.setTime(); // 시간 갱신
+      //   this.drawChart(); // 차트 다시 그리기
+   };
 }
