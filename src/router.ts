@@ -26,6 +26,21 @@ const routes = [
       name: 'canvasAnimation2',
       component: () => import('./views/CanvasAnimationTest2.vue'),
    },
+   {
+      path: '/canvasInteraction',
+      name: 'canvasInteraction',
+      component: () => import('./views/CanvasInteraction1.vue'),
+   },
+   {
+      path: '/chartLibrary1',
+      name: 'chartLibrary1',
+      component: () => import('./views/ChartLibraryTest1.vue'),
+   },
+   {
+      path: '/chartLibrary2',
+      name: 'chartLibrary2',
+      component: () => import('./views/ChartLibraryTest2.vue'),
+   },
 ];
 
 const router = createRouter({
